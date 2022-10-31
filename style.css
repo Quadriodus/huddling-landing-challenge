@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+    font-weight: 400, 600;
+    font-family: "open sans";
+    background-color: hsl(257, 40%, 49%);
+}
+
+.topnav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.field img {
+    max-width: 500px;
+    display: flex;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.textarea {
+    color: white;
+    margin-left: 5px;
+}
+
+a:link,a:visited {
+    border: 1px solid;
+    border-radius: 25px;
+    border-collapse: collapse;
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,a:active {
+    background-color: hsl(257, 51%, 59%);
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+}
+
+.icon {
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    padding:4px 5px;
+    margin-right: 15px;
+    color: white;
+}
+
+.icon:hover {
+    color:hsl(257, 51%, 59%) ;
+    border: 1px solid hsl(257, 51%, 59%);
+}
+
+@media only screen and (max-width:700px) {
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .textarea {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:701px) {
+    .icons {
+        margin-top: 70px;
+        margin-right:90px ;
+    }
+}
